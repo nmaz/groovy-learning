@@ -1,0 +1,18 @@
+package groovy.learning
+
+class GroovyExpando {
+
+	static main(args) {
+
+		def user = new Expando();
+		user.fName = 'Dave'
+		user.age = '30'
+		user.location = 'Berlin'
+
+		user.greet = {greetMsg ->
+			println "${greetMsg} ${fName}! You are ${age} years old and live in ${location}."
+		}
+		
+		user.greet('Guten Tag')
+	}
+}

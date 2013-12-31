@@ -1,0 +1,13 @@
+package groovy.learning
+
+/**
+ * This class 
+ *
+ */
+class Collections {
+
+	static main(args) {
+	
+	}
+
+}

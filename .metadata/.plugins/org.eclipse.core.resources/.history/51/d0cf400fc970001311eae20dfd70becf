@@ -1,0 +1,6 @@
+package groovy.learning.domain
+
+class Message {
+	String name
+	String model
+}

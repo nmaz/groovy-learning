@@ -1,0 +1,24 @@
+package groovy.learning
+
+import groovy.json.StringEscapeUtils;
+
+/**
+ * This class shows how to use MetaClass property of a class to add behaviour to it at runtime
+ *
+ */
+class GroovyMetaClass {
+
+	static main(args) {
+		
+		String.metaClass.toStringw = {
+			println "metaClass-"
+		}
+		
+		def myString = "test"
+		
+		println myString.toStringw()
+		
+	
+	}
+
+}

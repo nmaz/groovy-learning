@@ -1,0 +1,9 @@
+package groovy.learning.domain
+
+class Car {
+
+	static main(args) {
+	
+	}
+
+}

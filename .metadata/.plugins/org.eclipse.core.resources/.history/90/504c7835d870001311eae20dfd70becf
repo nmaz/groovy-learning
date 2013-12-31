@@ -1,0 +1,9 @@
+package groovy.learning;
+
+class GroovyExpando {
+
+	static main(args) {
+	
+	}
+
+}

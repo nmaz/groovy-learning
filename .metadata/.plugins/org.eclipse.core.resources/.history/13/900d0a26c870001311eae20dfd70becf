@@ -1,0 +1,49 @@
+package groovy.learning
+
+import groovy.learning.domain.Car
+
+/**
+ * This class shows how to create and use Lists in Groovy
+ *
+ */
+class GroovyList {
+
+	static main(args) {
+
+		// list init and iterating over it
+		def myCityList = ['Madrid', 'Berlin', 'Paris']
+		myCityList.each { println it }
+
+		def myCarList = [
+			new Car(name:'Toyota', model: '1999'),
+			new Car(name:'Nissan', model: '2000'),
+		]
+
+		myCarList.each{ println "${it.name} - ${it.model}" }
+
+		// closure as argument
+		def myPrintingClosure = {println it.name}
+		myCarList.each(myPrintingClosure)
+
+
+		def myCountryList = ['USA']
+		// adding elements
+		myCountryList.add('Germany')
+		myCountryList.add 'France'
+		myCountryList << 'Japan'
+		myCountryList.add(4, 'Sweden')
+		myCountryList += 'Turkey'
+
+		myCountryList.each{ println it }
+
+		// removing elements from List
+		myCountryList-= 'Turkey'
+		myCountryList.remove 0
+		myCountryList.remove 'Sweden'
+
+		println '-----> removed'
+		myCountryList.each{ println it }
+
+	}
+
+}

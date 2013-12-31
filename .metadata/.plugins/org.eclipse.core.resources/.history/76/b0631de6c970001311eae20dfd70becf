@@ -1,0 +1,25 @@
+package groovy.learning
+
+import groovy.learning.domain.Message
+
+/**
+ * This class shows how to make use of Groovy operators
+ * - Elvis operator ?:
+ * - Safe navigation operator ?.
+ *
+ */
+class GroovyOperators {
+
+	static main(args) {
+
+		// ELVIS operator ?:
+		Message message = new Message(model:'1995')
+		String messageContent = message.content ?: 'undefined'
+		println "messageContent: ${messageContent}"
+
+		// safe navigation operator ?.
+		Message carObj1 = null
+		String carName1 = carObj1?.name
+		println "carname1: ${carName1}"
+	}
+}
