@@ -1,9 +1,0 @@
-package groovy.learning
-
-class GroovyOperators {
-
-	static main(args) {
-	
-	}
-
-}

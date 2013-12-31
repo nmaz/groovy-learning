@@ -1,9 +1,0 @@
-package groovy.learning;
-
-class Collections {
-
-	static main(args) {
-	
-	}
-
-}

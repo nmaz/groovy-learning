@@ -1,6 +1,0 @@
-package groovy.learning.domain
-
-class Car {
-	String name
-	String model
-}

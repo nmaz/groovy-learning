@@ -1,9 +1,0 @@
-package groovy.learning
-
-class GroovyMetaClass {
-
-	static main(args) {
-	
-	}
-
-}

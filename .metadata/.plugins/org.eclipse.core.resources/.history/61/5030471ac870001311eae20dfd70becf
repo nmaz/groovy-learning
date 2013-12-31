@@ -1,9 +1,0 @@
-package groovy.learning;
-
-class GroovyMap {
-
-	static main(args) {
-	
-	}
-
-}

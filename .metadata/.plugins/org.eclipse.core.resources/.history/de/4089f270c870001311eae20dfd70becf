@@ -1,9 +1,0 @@
-package groovy.learning;
-
-class GroovyRestCall {
-
-	static main(args) {
-	
-	}
-
-}

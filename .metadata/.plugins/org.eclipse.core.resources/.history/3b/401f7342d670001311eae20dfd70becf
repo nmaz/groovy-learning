@@ -1,9 +1,0 @@
-package groovy.learning
-
-class GroovyTextTemplate {
-
-	static main(args) {
-	
-	}
-
-}

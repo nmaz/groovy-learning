@@ -1,9 +1,0 @@
-package groovy.examples;
-
-class FileContentReader {
-
-	static main(args) {
-	
-	}
-
-}
